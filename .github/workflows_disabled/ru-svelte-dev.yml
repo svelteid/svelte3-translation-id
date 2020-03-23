@@ -1,0 +1,57 @@
+name: Deploy ru.svelte.dev site
+
+on:
+  push:
+    paths:
+      - '.github/workflows/ru-svelte-dev.yml'
+      - 'repositories/sveltejs/svelte/*'
+      - 'repositories/sveltejs/svelte/*/*'
+      - 'repositories/sveltejs/svelte/*/*/*'
+      - 'repositories/sveltejs/svelte/*/*/*/*'
+      - 'repositories/sveltejs/svelte/*/*/*/*/*'
+      - 'repositories/sveltejs/svelte/*/*/*/*/*/*'
+      - 'repositories/sveltejs/svelte/*/*/*/*/*/*/*'
+      - 'repositories/sveltejs/svelte/*/*/*/*/*/*/*/*'
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+ 
+    steps:
+      - uses: actions/checkout@v1
+      - name: Build & Push the Docker image
+        run: |
+          docker login docker.pkg.github.com -u AlexxNB -p ${{ secrets.PKG_TOKEN }}
+          docker build . --file  deploy/svelte-site.dockerfile --tag docker.pkg.github.com/alexxnb/svelte3-translation-ru/ru-svelte-dev:latest --build-arg MAPBOX_ACCESS_TOKEN=${{ secrets.MAPBOX_ACCESS_TOKEN }}
+          docker push docker.pkg.github.com/alexxnb/svelte3-translation-ru/ru-svelte-dev:latest
+
+      - name: Copy docker-compose file to the server
+        uses: garygrossgarten/github-action-scp@release
+        with:
+          local: deploy/docker-compose.yml
+          remote: /tmp/svelte/docker-compose.yml
+          host: dev.alexxnb.ru
+          username: ${{ secrets.SSH_USER }}
+          password: ${{ secrets.SSH_PASS }}
+
+      - name: Restarting ru.svelte.dev container
+        uses: garygrossgarten/github-action-ssh@v0.3.0
+        with:
+          command: >-
+            docker login docker.pkg.github.com -u AlexxNB -p ${{ secrets.PKG_TOKEN }} && 
+            cd /tmp/svelte && 
+            docker-compose pull svelte && 
+            export GITHUB_CLIENT_ID=${{ secrets.GITHUB_CLIENT_ID }} && 
+            export GITHUB_CLIENT_SECRET=${{ secrets.GITHUB_CLIENT_SECRET }} && 
+            export PGUSER=${{ secrets.PGUSER }} && 
+            export PGPASSWORD=${{ secrets.PGPASSWORD }} && 
+            export PGHOST=${{ secrets.PGHOST }} && 
+            export PGDATABASE=${{ secrets.PGDATABASE }} && 
+            export PGPORT=${{ secrets.PGPORT }} && 
+            docker-compose up --detach --force-recreate svelte && 
+            docker image prune -a -f &&
+            rm -rf /tmp/svelte
+          host: dev.alexxnb.ru
+          username: ${{ secrets.SSH_USER }}
+          password: ${{ secrets.SSH_PASS }}
