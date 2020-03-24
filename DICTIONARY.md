@@ -1,23 +1,23 @@
-# Словарь терминов Svelte
+# Daftar Istilah Svelte
 
-Оглавление: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [J](#j) [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [U](#u) [V](#v) [W](#w) [X](#x) [Y](#y) [Z](#z)
+Daftar isi: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [J](#j) [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [U](#u) [V](#v) [W](#w) [X](#x) [Y](#y) [Z](#z)
 
 ## a
-*action* — действие
+*action* — aksi
 
-*accessor* — аксессор
+*accessor* — aksesor
 
 ## b
 
-*behaviours* — поведение
+*behaviours* — perilaku
 
-*binding* — привязка
+*binding* — pengikatan
 
-*building*  — сборка 
+*building*  — pembangunan 
 
-*bundle* — bundle
+*bundle* — bundel
 
-*bundler* — bundler
+*bundler* — pembundel
 
 ## c
 *component* — komponen
@@ -36,15 +36,15 @@
 *directive* — direktif
 
 ## e
-*event* — peristiwa
+*event* — event
 
-*event dispatcher* — pengirim peristiwa
+*event dispatcher* — pengirim event
 
-*event forwarding* — penerusan peristiwa
+*event forwarding* — penerusan event
 
-*event handler* — pawang peristiwa
+*event handler* — pawang event
 
-*event listener* — pendengar peristiwa
+*event listener* — pendengar event
 
 ## f
 *fire event* — luncurkan peristiwa
@@ -60,9 +60,9 @@
 ## l
 *layout* — tata letak
 
-*lifecycle function* — fungsi daur hidup
+*lifecycle function* — fungsi siklus hidup
 
-*lifecycle hook* — kait daur hidup
+*lifecycle hook* — kait siklus hidup
 
 ## m
 *markup* — markup
@@ -71,9 +71,9 @@
 *nested* — bersarang
 
 ## p
-*prefetch loading* — antar muat 
+*prefetch loading* — jemput muatan 
 
-*preloading* — preloading 
+*preloading* — pramuatan 
 
 *preprocess* — praproses
 
@@ -81,43 +81,43 @@
 
 *property*,*prop* — properti
 
-*proxy* — прокси
+*proxy* — proxy
 
 ## r
-*reactive assignment* — реактивные присваивание
+*reactive assignment* — penugasan reaktif
 
-*reactive declaration* — реактивные объявление
+*reactive declaration* — deklarasi reaktif
 
-*reactive statement* — реактивное выражение
+*reactive statement* — pernyataan reaktif
 
-*route*,*routing* — маршрут, маршрутизация
+*route*,*routing* — rute
 
 ## s
-*scoped styles* — изолированные стили
+*scoped styles* — gaya tercakup
 
-*server route* — серверный маршрут
+*server route* — rute server
 
-*service-worker* — сервис-воркер
+*service-worker* — service-worker
 
-*special element* — специальный элемент
+*special element* — elemen spesial
 
-*spread properties* — развертка свойств
+*spread properties* — properti tersebar
 
-*state*,*internal state* — состояние, внутреннее состояние
+*state*,*internal state* — status, status internal
 
-*state management* — управление состоянием
+*state management* — manajemen status
 
-*static* — статика
+*static* — statik
 
-*store* — хранилище
+*store* — simpan
 
 ## t
 *tag* — тег
 
-*template* — шаблон
+*template* — templat
 
-*transition* — переход
+*transition* — transisi
 
-*transition in* — переход появления
+*transition in* — transisi masuk
 
-*transition out* — переход исчезновения
+*transition out* — transisi keluar
