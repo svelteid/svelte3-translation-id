@@ -1,9 +1,9 @@
 ---
-title: Важное замечание
+title: Pemberitahuan Penting
 ---
 
-Этот раздел содержит подробную справочную документацию по API. Он предназначен для людей, которые уже знакомы с Svelte.
+Bagian ini berisi dokumentasi terperinci mengenai referensi API yang ditujukan untuk orang-orang yang sudah terbiasa dengan Svelte.
 
-Если вы ещё не успели познакомиться с нашим фреймворком, сделайте это в [интерактивном Учебнике](tutorial) или посмотрите [примеры](examples) — тогда эта документация может оказаться более полезной для вас.
+Jika Anda belum sempat berkenalan dengan _framework_ kami, lakukan di [Tutorial interaktif] (tutorial) atau lihat [contoh] (examples) - setelah itu dokumentasi ini akan lebih bermanfaat bagi Anda.
 
-Не стесняйтесь просить помощи в [чате Discord](chat) или в русскоязычном Telegram-канале [@sveltejs](https://t.me/sveltejs). 
+Jangan ragu untuk meminta bantuan kami di grup Telegram berbahasa Indonesia [@svelte_id] (https://t.me/svelte_id).
