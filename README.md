@@ -28,7 +28,7 @@ Situs resmi berbahasa Rusia berikut ini telah diluncurkan:
 
 ## Bagaimana Cara Berkontribusi pada Penerjemahan
 * [Terjemahkan](https://github.com/svelteid/svelte3-translation-id/issues) bagian dari sumber daya apa saja di atas yang belum diterjemahkan.
-* Tingkatkan kualitas terjemahan yang sudah ada: perbaiki kesalahan pengejaan, tanda baca atau semantik, ulangi kalimat yang disusun dengan buruk, hilangkan inkonsistensi terjemahan dengan rekomendasi, dll. Ini harus dilakukan melalui sistem _pull request_ dalam repositori ini.
+* Tingkatkanlah kualitas terjemahan yang sudah ada: perbaikilah kesalahan pengejaan, tanda baca atau semantik, revisilah kalimat yang disusun dengan buruk, hilangkanlah inkonsistensi terjemahan dengan rekomendasi, dll. Cara melakukannya hanya melalui sistem _pull request_ dalam repositori github ini.
 
 ## Rekomendasi Terjemahan
 
@@ -42,8 +42,8 @@ Situs resmi berbahasa Rusia berikut ini telah diluncurkan:
   * gunakanlah dokumentasi berbahasa Indonesia, laporan atau artikel yang menggunakan kosakata yang baik dan benar;
   * yang terakhir gunakanlah terjemahan hasil temuan pribadi.
 * Hindarilah kebarat-baratan selama masih ada padanan kata dalam Bahasa Indonesia.
-* Tautan ke sumber daya eksternal (MDN, Wikipedia) haruslah menuju versi yang sudah diterjemahkan ke dalam Bahasa Indonesia jika ada.
-*  Terjemahkan nama asing dengan nama asli dalam tanda kurung: *(Rich Harris)*.
+* Tautan yang menuju ke sumber daya eksternal (MDN, Wikipedia) haruslah diarahkan kepada versi yang sudah diterjemahkan ke dalam Bahasa Indonesia jika ada.
+*  Terjemahkanlah nama asing dengan nama asli dalam tanda kurung: *(Rich Harris)*.
 * Judul artikel referensi yang ditulis dalam bahasa asing haruslah disampaikan dalam bahasa aslinya lalu diikuti dengan terjemahan Bahasa Indonesia dalam tanda kurung.
 * Upayakanlah menggunakan bahasa umum yang tidak membedakan gender.
 * Judul artikel dan _heading_ ditulis dengan huruf kapital.
