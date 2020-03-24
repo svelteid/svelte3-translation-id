@@ -49,7 +49,7 @@ Situs resmi berbahasa Rusia berikut ini telah diluncurkan:
 * Judul artikel dan _heading_ ditulis dengan huruf kapital.
 * Bahasa asing yang tidak diterjemahkan karena dianggap bahasa umum komputer, ditulis dalam cetak miring misalnya: _file_, _browser_.
 
-Untuk menghindari kebingungan, cobalah mengartikan suatu kalimat dan mengulanginya seolah menjelaskan kepada kolega senior. Apabila kalimatnya terdengar janggal, maka kalimat tersebut harus ditulis kembali dengan cara lain.
+Untuk menghindari kebingungan, cobalah mengartikan suatu kalimat dan mengulanginya seolah menjelaskan kepada kolega senior. Apabila kalimatnya terdengar janggal, maka kalimat tersebut harus ditulis kembali dengan cara yang berbeda.
 
 Sedikit ruang kebebasan berekspresi dalam penerjemahan tetap diperkenankan, namun jika dan hanya jika terjemahan itu membantu memperjelas makna. Terjemahan sebaiknya jangan terlalu resmi tapi juga jangan terlalu longgar. Carilah terjemahan yang baik dan benar di antara kedua ekstrim tersebut.
 
