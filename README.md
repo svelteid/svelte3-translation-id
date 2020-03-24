@@ -1,86 +1,90 @@
-# Перевод ресурсов по Svelte
+# Terjemahan Sumberdaya Svelte
 
-> На данный момент еще не известно в каком виде будет реализовываться внедрение локализации на официальных ресурсах, поэтому, в последствии возможны изменения в структуре и подходах данного репозитория 
+> Saat ini, belum diketahui dalam bentuk apa implementasi pelokalan pada sumber daya resmi akan diimplementasikan, oleh sebab itu nantinya perubahan dalam struktur dan pendekatan repositori ini sangatlah mungkin terjadi di kemudian hari.
+ 
 
-## Результат нашей работы
-Запущены следующие официальные русскоязычные сайты:
+## Hasil dari Penerjemahan
+Situs resmi berbahasa Rusia berikut ini telah diluncurkan:
 - [ru.svelte.dev](https://ru.svelte.dev)
 - [ru.sapper.svelte.dev](https://ru.sapper.svelte.dev)
 - [ru.svelte-native.technology](https://ru.svelte-native.technology)
 
-> Сайты собираются и деплоятся автоматически при коммитах в данный репозиторий.
+> Situs dikumpulkan dan di-_deploy_ secara otomatis ketika melakukan _commit_ ke repositori ini.
 
-![](https://github.com/AlexxNB/svelte3-translation-ru/workflows/Deploy%20ru.svelte.dev%20site/badge.svg)
-![](https://github.com/AlexxNB/svelte3-translation-ru/workflows/Deploy%20ru.sapper.svelte.dev%20site/badge.svg)
-![](https://github.com/AlexxNB/svelte3-translation-ru/workflows/Deploy%20ru.svelte-native.dev%20site/badge.svg)
+![](https://github.com/svelteid/svelte3-translation-id/workflows/Deploy%20id.svelte.dev%20site/badge.svg)
+![](https://github.com/svelteid/svelte3-translation-id/workflows/Deploy%20id.sapper.svelte.dev%20site/badge.svg)
+![](https://github.com/svelteid/svelte3-translation-id/workflows/Deploy%20id.svelte-native.dev%20site/badge.svg)
 
-## Что переводим
-* [Учебник](https://svelte.dev/tutorial) по Svelte V3 ([GitHub](https://github.com/sveltejs/svelte/tree/master/site/content/tutorial))
-* [Документацию](https://svelte.dev/docs) по Svelte V3 ([GitHub](https://github.com/sveltejs/svelte/tree/api-reference/site/content/docs))
-* [Документацию](https://sapper.svelte.technology/guide) по Sapper ([GitHub](https://github.com/sveltejs/sapper.svelte.technology/tree/master/content/guide))
-* [Примеры](https://svelte.dev/repl) ([GitHub](https://github.com/sveltejs/svelte/tree/master/site/content/examples))
-* [Блог](https://svelte.dev/blog) ([GitHub](https://github.com/sveltejs/svelte/tree/master/site/content/blog))
-* Контент сайта [svelte.technology](https://svelte.dev) ([GitHub](https://github.com/sveltejs/svelte/tree/master/site/src))
-* Контент сайта [sapper.svelte.technology](https://sapper.svelte.technology) ([GitHub](https://github.com/sveltejs/sapper.svelte.technology/tree/master/src))
-* Контент сайта [svelte-native.technology](https://svelte-native.technology) ([GitHub](https://github.com/halfnelson/svelte-native/tree/master/docs_src/content))
+## Apa yang Kita Terjemahkan
+* [Tutorial](https://svelte.dev/tutorial) Svelte V3 ([GitHub](https://github.com/sveltejs/svelte/tree/master/site/content/tutorial))
+* [Dokumentasi](https://svelte.dev/docs) Svelte V3 ([GitHub](https://github.com/sveltejs/svelte/tree/api-reference/site/content/docs))
+* [Dokumentasi](https://sapper.svelte.technology/guide) Sapper ([GitHub](https://github.com/sveltejs/sapper.svelte.technology/tree/master/content/guide))
+* [Contoh](https://svelte.dev/repl) ([GitHub](https://github.com/sveltejs/svelte/tree/master/site/content/examples))
+* [Blog](https://svelte.dev/blog) ([GitHub](https://github.com/sveltejs/svelte/tree/master/site/content/blog))
+* Konten situs [svelte.technology](https://svelte.dev) ([GitHub](https://github.com/sveltejs/svelte/tree/master/site/src))
+* Konten situs [sapper.svelte.technology](https://sapper.svelte.technology) ([GitHub](https://github.com/sveltejs/sapper.svelte.technology/tree/master/src))
+* Konten situs [svelte-native.technology](https://svelte-native.technology) ([GitHub](https://github.com/halfnelson/svelte-native/tree/master/docs_src/content))
 
 
-## Как внести свой вклад в перевод
-* [Перевести](https://github.com/AlexxNB/svelte3-translation-ru/issues/6) ещё не переведённую часть какого-либо ресурса, указанного выше.
-* Улучшить существующий перевод: исправить орфографическую, пунктуационную или семантическую ошибку, перефразировать неудачно скомпонованное предложение, устранить несоответствия перевода рекомендациям и т.п. Это нужно делать через систему Pull request в данном репозитории.
+## Bagaimana Berkontribusi pada Penerjemahan
+* [Terjemahkan](https://github.com/svelteid/svelte3-translation-id/issues) bagian dari sumber daya apa saja di atas yang belum diterjemahkan.
+* Tingkatkan kualitas terjemahan yang sudah ada: perbaiki kesalahan pengejaan, tanda baca atau semantik, ulangi kalimat yang disusun dengan buruk, hilangkan inkonsistensi terjemahan dengan rekomendasi, dll. Ini harus dilakukan melalui sistem _pull request_ dalam repositori ini.
 
-## Рекомендации по переводу
+## Rekomendasi Terjemahan
 
->Данные рекомендации по большей части подсмотрены в [сообществе переводчиков React](https://github.com/reactjs/ru.reactjs.org/blob/master/TRANSLATION.md)
+>Sebagian besar, panduan ini dipantau oleh [React Translator Community]
+(https://github.com/reactjs/ru.reactjs.org/blob/master/TRANSLATION.md)
 
-* Оформление перевода должно соответствовать оформлению оригинала. 
-* Где это к месту, лучше строить предложения в обезличенной форме(без `мы` и `вы`), но не фанатично, т.к. документация старается быть менее официальной. В любом случае `Вы` и его производные пишите с маленькой буквы.
-* Всегда используйте букву `ё` (это соблюдать с помощью [данного npm-пакета](https://github.com/hcodes/eyo)).
-* Используйте знак тире `—` — где нужно тире, и знак дефиса `-` — где нужен дефис. Примеры: как-будто, Svelte — это фреймворк.
-* Во всех примерах кода необходимо переводить комментарии и весь текст, который относится к UI, т.е. то, что пользователь увидит при запуске такого примера.
-* Список, с которым в порядке убывания приоритета должен быть согласован перевод лексики, терминов и прочего:
-  * наш [словарь терминов](DICTIONARY.md) Svelte;
-  * [словарь «Веб-стандартов»](https://github.com/web-standards-ru/dictionary);
-  * аналоги в переводах документации других известных UI-фреймворков (Vue, React, Angular);
-  * русскоязычная документация, доклады или статьи с использованием нужной лексики;
-  * лично придуманный перевод.
-* Избегать чрезмерных англицизмов, при условии, что есть общеупотребительные русские аналоги. `Пропсы`, `билд` и подобное не годятся. Но, например, `бандл` не имеет лучшего русского аналога.
-* Ссылки на ресурсы (MDN, Wikipedia) должны вести на русскую версию, если есть соответствующий перевод.
-* Иностранные имена переводите с указанием оригинального имени в скобках: *Рич Харрис (Rich Harris)*. При этом обязательно проверьте уже существующий перевод имени в [словаре имён «Веб-стандартов»](https://github.com/web-standards-ru/dictionary/blob/master/names.md).
-* Ссылки с названием иностранной статьи в переводе должны быть приведены на языке оригинала, после чего содержать в скобках их русскоязычный перевод.
-* Исключайте отсылки на пол читателя (см. секцию 3 на [этой странице](http://www.un.org/ru/gender-inclusive-language/guidelines.shtml)).
-* Названия статей и заголовки пишутся с одной заглавной буквы («Удаление неиспользуемых стилей», а не «Удаление Неиспользуемых Стилей»).
+* Desain terjemahan harus sesuai dengan desain aslinya. 
+* Lebih baik untuk membangun kalimat dalam bentuk anonim (tanpa `kami` dan` Anda`), walaupun tidak wajib, karena Dokumentasi mencoba agar tidak terlalu formal.
+* Gunakan tanda pisah —— manakala dibutuhkan, dan tanda hubung -— saat dibutuhkan. Contoh: sebagaimana Svelte adalah sebuah framework.
+* Di semua contoh kode, komentar dan semua teks yang terkait dengan antarmuka pengguna (_user interface_/ UI) wajib diterjemahkan, yakni apa yang dilihat pengguna saat menjalankan contoh tersebut.
+* Daftar urutan prioritas penerjemahan dari yang utama yang harus disepakati:
+  * [Glosarium](DICTIONARY.md) Svelte;
+  * gunakan persamaan atau analogi dengan terjemahan dokumentasi framework ternama lainnya (Vue, React, Angular);
+  * gunakan dokumentasi berbahasa Indonesia, laporan atau artikel menggunakan kosakata yang baik dan benar;
+  * yang terakhir gunakanlah terjemahan hasil temuan pribadi.
+* Hindari kebarat-baratan selama masih ada padanan kata dalam Bahasa Indonesia.
+* Tautan ke sumber daya eksternal (MDN, Wikipedia) haruslah menuju versi yang sudah diterjemahkan ke dalam Bahasa Indonesia jika ada.
+*  Terjemahkan nama asing dengan nama asli dalam tanda kurung: *(Rich Harris)*.
+* Judul artikel referensi yang ditulis dalam bahasa asing harus disampaikan dalam bahasa aslinya lalu diikuti dengan terjemahan Bahasa Indonesia dalam tanda kurung.
+* Upayakan menggunakan bahasa umum yang tidak membedakan gender.
+* Judul artikel dan _heading_ ditulis dengan huruf kapital.
+* Bahasa asing yang tidak diterjemahkan karena dianggap bahasa umum komputer, ditulis dalam cetak miring misalnya: _file_, _browser_.
 
-Чтобы избежать кальки, можно брать смысл предложения, а потом перефразировать так, как объясняли бы старшему коллеге. Если предложение звучит нелепо вслух, то его надо переписать.
+Untuk menghindari kebingungan, coba artikan suatu kalimat dan ulangi seolah menjelaskan kepada kolega senior. Jika kalimatnya terdengar janggal, maka kalimat tersebut harus ditulis ulang.
 
-Небольшие вольности в переводе допускаются, но только если они помогают передать смысл. Перевод не должен быть ни слишком официальным, ни фамильярным. Истина где-то посередине.
+Small liberties in translation are allowed, but only if they help convey the meaning. The translation should not be too official or familiar. The truth is somewhere in between.
 
-## Запуск локальной версии сайта
+Ruang kebebasan dalam penerjemahan tetap diperkenankan, namun hanya jika terjemahan itu membantu memperjelas makna. Terjemahan sebaiknya jangan terlalu resmi tapi juga jangan terlalu longgar. Carilah terjemahan yang baik dan benar di antara kedua ekstrim tersebut.
 
-В репозиторий добавлены npm скрипты, которые позволяют забрать с GitHub текущую версию необходимого сайта, применить все изменения из нашего репозитория переводов и запустить копию сайта на своём компьютере, чтобы сразу видеть перевод в естественных условиях.
+## Luncurkan situs versi lokal
+
+Skrip npm telah ditambahkan ke dalam repositori, yang memperkenankan Anda dari Github untuk mengambil versi terkini situs yang terkait dalam projek ini, aplikasikan semua modifikasi dari repositori terjemahan ini dan jalankan salinan situs pada komputer Anda untuk melihat secara langsung hasil terjemahannya.
+
 
 ```bash
 git clone git@github.com:AlexxNB/svelte3-translation-ru.git svelte-translation
 cd svelte-translation
 
-# 1. Устанавливаем все зависимости
+# 1. Instalasi semua paket wajib
 npm install
 
-# 2. Скачиваем последнюю версию нужного сайта и применяем к нему перевод
+# 2. Unduh versi terkini dari situs yang diinginkan dan aplikasikan terjemahan pada situs itu
 npm run update-svelte 
-#...или...
+#...atau...
 npm run update-sapper 
-#...или...
+#...atau...
 npm run update-svelte-native 
 
-# 3. Запускаем сайт на локальной машине
+# 3. Luncurkan situs pada mesin lokal
 npm run dev-svelte
-#...или...
+#...atau...
 npm run dev-sapper
-#...или...
+#...atau...
 npm run dev-svelte-native
 ```
 
-Теперь можно открыть запущенный сайт по адресу [http://localhost:3000]() и посмотреть на него со всеми внесёнными изменениями на текущий момент.
+Kini kamu bisa buka situsnya _running_ di [http://localhost:3000]() dan lihatlah semua perubahan yang tampak padanya saat ini.
 
-При изменении файлов перевода, обновите окно браузера и вы должны будете увидеть изменения.
+Ketika mengubah _file_ terjemahan, _refresh_ jendela peramban (_browser_) dan kamu akan lihat perubahannya.
