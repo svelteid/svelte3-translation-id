@@ -1,0 +1,5 @@
+__svelte
+__sapper
+__svelte-native
+node_modules
+package-lock.json
