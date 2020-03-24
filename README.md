@@ -1,6 +1,6 @@
 # Terjemahan Sumberdaya Svelte
 
-> Saat ini, belum diketahui dalam bentuk apa implementasi pelokalan pada sumber daya resmi akan diimplementasikan, oleh sebab itu nantinya perubahan dalam struktur dan pendekatan repositori ini sangatlah mungkin terjadi di kemudian hari.
+> Saat ini, belum diketahui bagaimana bentuk implementasi penerjemahan sumber daya resmi Svelte akan diimplementasikan, oleh sebab itu nantinya perubahan dalam struktur dan pendekatan repositori ini sangatlah mungkin terjadi di kemudian hari.
  
 
 ## Hasil dari Penerjemahan
@@ -26,37 +26,32 @@ Situs resmi berbahasa Rusia berikut ini telah diluncurkan:
 * Konten situs [svelte-native.technology](https://svelte-native.technology) ([GitHub](https://github.com/halfnelson/svelte-native/tree/master/docs_src/content))
 
 
-## Bagaimana Berkontribusi pada Penerjemahan
+## Bagaimana Cara Berkontribusi pada Penerjemahan
 * [Terjemahkan](https://github.com/svelteid/svelte3-translation-id/issues) bagian dari sumber daya apa saja di atas yang belum diterjemahkan.
 * Tingkatkan kualitas terjemahan yang sudah ada: perbaiki kesalahan pengejaan, tanda baca atau semantik, ulangi kalimat yang disusun dengan buruk, hilangkan inkonsistensi terjemahan dengan rekomendasi, dll. Ini harus dilakukan melalui sistem _pull request_ dalam repositori ini.
 
 ## Rekomendasi Terjemahan
 
->Sebagian besar, panduan ini dipantau oleh [React Translator Community]
-(https://github.com/reactjs/ru.reactjs.org/blob/master/TRANSLATION.md)
-
 * Desain terjemahan harus sesuai dengan desain aslinya. 
-* Lebih baik untuk membangun kalimat dalam bentuk anonim (tanpa `kami` dan` Anda`), walaupun tidak wajib, karena Dokumentasi mencoba agar tidak terlalu formal.
-* Gunakan tanda pisah —— manakala dibutuhkan, dan tanda hubung -— saat dibutuhkan. Contoh: sebagaimana Svelte adalah sebuah framework.
+* Lebih baik untuk membangun kalimat dalam bentuk anonim (tanpa `kami` dan tanpa ` Anda`), walaupun tidak wajib, agar Dokumentasi jangan menjadi terlalu formal.
+* Gunakanlah tanda pisah —— manakala dibutuhkan, dan gunakanlah tanda hubung -— saat dibutuhkan. Contoh: sebagaimana Svelte adalah sebuah framework.
 * Di semua contoh kode, komentar dan semua teks yang terkait dengan antarmuka pengguna (_user interface_/ UI) wajib diterjemahkan, yakni apa yang dilihat pengguna saat menjalankan contoh tersebut.
 * Daftar urutan prioritas penerjemahan dari yang utama yang harus disepakati:
   * [Glosarium](DICTIONARY.md) Svelte;
-  * gunakan persamaan atau analogi dengan terjemahan dokumentasi framework ternama lainnya (Vue, React, Angular);
-  * gunakan dokumentasi berbahasa Indonesia, laporan atau artikel menggunakan kosakata yang baik dan benar;
+  * gunakanlah persamaan atau analogi dengan terjemahan dokumentasi framework ternama lainnya (Vue, React, Angular);
+  * gunakanlah dokumentasi berbahasa Indonesia, laporan atau artikel yang menggunakan kosakata yang baik dan benar;
   * yang terakhir gunakanlah terjemahan hasil temuan pribadi.
-* Hindari kebarat-baratan selama masih ada padanan kata dalam Bahasa Indonesia.
+* Hindarilah kebarat-baratan selama masih ada padanan kata dalam Bahasa Indonesia.
 * Tautan ke sumber daya eksternal (MDN, Wikipedia) haruslah menuju versi yang sudah diterjemahkan ke dalam Bahasa Indonesia jika ada.
 *  Terjemahkan nama asing dengan nama asli dalam tanda kurung: *(Rich Harris)*.
-* Judul artikel referensi yang ditulis dalam bahasa asing harus disampaikan dalam bahasa aslinya lalu diikuti dengan terjemahan Bahasa Indonesia dalam tanda kurung.
-* Upayakan menggunakan bahasa umum yang tidak membedakan gender.
+* Judul artikel referensi yang ditulis dalam bahasa asing haruslah disampaikan dalam bahasa aslinya lalu diikuti dengan terjemahan Bahasa Indonesia dalam tanda kurung.
+* Upayakanlah menggunakan bahasa umum yang tidak membedakan gender.
 * Judul artikel dan _heading_ ditulis dengan huruf kapital.
 * Bahasa asing yang tidak diterjemahkan karena dianggap bahasa umum komputer, ditulis dalam cetak miring misalnya: _file_, _browser_.
 
-Untuk menghindari kebingungan, coba artikan suatu kalimat dan ulangi seolah menjelaskan kepada kolega senior. Jika kalimatnya terdengar janggal, maka kalimat tersebut harus ditulis ulang.
+Untuk menghindari kebingungan, cobalah mengartikan suatu kalimat dan mengulanginya seolah menjelaskan kepada kolega senior. Apabila kalimatnya terdengar janggal, maka kalimat tersebut harus ditulis kembali dengan cara lain.
 
-Small liberties in translation are allowed, but only if they help convey the meaning. The translation should not be too official or familiar. The truth is somewhere in between.
-
-Ruang kebebasan dalam penerjemahan tetap diperkenankan, namun hanya jika terjemahan itu membantu memperjelas makna. Terjemahan sebaiknya jangan terlalu resmi tapi juga jangan terlalu longgar. Carilah terjemahan yang baik dan benar di antara kedua ekstrim tersebut.
+Sedikit ruang kebebasan berekspresi dalam penerjemahan tetap diperkenankan, namun jika dan hanya jika terjemahan itu membantu memperjelas makna. Terjemahan sebaiknya jangan terlalu resmi tapi juga jangan terlalu longgar. Carilah terjemahan yang baik dan benar di antara kedua ekstrim tersebut.
 
 ## Luncurkan situs versi lokal
 
