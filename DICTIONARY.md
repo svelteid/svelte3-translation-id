@@ -47,7 +47,7 @@ Daftar isi: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) 
 *event listener* — pendengar event
 
 ## f
-*fire event* — luncurkan peristiwa
+*fire event* — luncurkan event
 
 ## h
 *hydration* — hidrasi
@@ -55,14 +55,14 @@ Daftar isi: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) 
 ## i
 *immutable* — tak berubah
 
-*inline handler* — pawang barisan
+*inline handler* — handler barisan
 
 ## l
 *layout* — tata letak
 
-*lifecycle function* — fungsi siklus hidup
+*lifecycle function* — fungsi lifecycle
 
-*lifecycle hook* — kait siklus hidup
+*lifecycle hook* — kait lifecycle
 
 ## m
 *markup* — markup
@@ -77,7 +77,7 @@ Daftar isi: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) 
 
 *preprocess* — praproses
 
-*promise* — janji
+*promise* — promise
 
 *property*,*prop* — properti
 
@@ -109,10 +109,10 @@ Daftar isi: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) 
 
 *static* — statik
 
-*store* — simpan
+*store* — store
 
 ## t
-*tag* — тег
+*tag* — tag
 
 *template* — templat
 
