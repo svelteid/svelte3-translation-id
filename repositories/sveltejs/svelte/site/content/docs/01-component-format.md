@@ -1,30 +1,30 @@
 ---
-title: Формат компонента
+title: Format Komponen
 ---
 
 ---
 
-Компоненты — это строительные кирпичики любого приложения на фреймворке Svelte. Они описываются в файлах с расширением `.svelte` при помощи надмножества языка разметки HTML.
+Komponen adalah _building block_ semua aplikasi dalam __framework__ Svelte. Komponen tersebut dijabarkan dalam sebuah file yang berakhiran `.svelte` menggunakan superset dari bahasa markup HTML.
 
-Все три части — script, style и разметка — не являются обязательными.
+Ketiga unsur - script, style, dan markup - adalah opsional.
 
 ```html
 <script>
-	// логика описывается здесь
+	// Logikanya dijelaskan di sini
 </script>
 
 <style>
-	/* стили должны быть здесь */
+	/* style harus ada di sini */
 </style>
 
-<!-- разметка (0 или более элементов) помещается здесь -->
+<!-- markup (0 elemen atau lebih) ditempatkan di sini -->
 ```
 
 ### &lt;script&gt;
 
-Блок `<script>` содержит JavaScript, который запускается при создании экземпляра компонента. Переменные, объявленные (или импортированные) в этом блоке, 'видны' из разметки компонента. Есть ещё четыре дополнительных правила:
+blok `<script>` berisi JavaScript yang dijalankan saat komponen dibuat. Variabel yang dideklarasikan (atau diimpor) di blok ini akan 'tampak' dari komponen markup. Ada empat aturan tambahan:
 
-##### 1. `export` объявляет свойство компонента
+##### 1. `export` mendeklarasikan properti komponen
 
 ---
 
