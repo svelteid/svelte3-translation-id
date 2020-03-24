@@ -3,7 +3,7 @@
 > Saat ini, belum diketahui bagaimana bentuk implementasi penerjemahan sumber daya resmi Svelte akan diimplementasikan, oleh sebab itu nantinya perubahan dalam struktur dan pendekatan repositori ini sangatlah mungkin akan terjadi di kemudian hari.
  
 
-## Hasil dari Penerjemahan
+## Hasil Penerjemahan
 Situs resmi berbahasa Rusia berikut ini telah diluncurkan:
 - [ru.svelte.dev](https://ru.svelte.dev)
 - [ru.sapper.svelte.dev](https://ru.sapper.svelte.dev)
@@ -15,7 +15,7 @@ Situs resmi berbahasa Rusia berikut ini telah diluncurkan:
 ![](https://github.com/svelteid/svelte3-translation-id/workflows/Deploy%20id.sapper.svelte.dev%20site/badge.svg)
 ![](https://github.com/svelteid/svelte3-translation-id/workflows/Deploy%20id.svelte-native.dev%20site/badge.svg)
 
-## Apa yang Kita Terjemahkan
+## Apa yang Diterjemahkan
 * [Tutorial](https://svelte.dev/tutorial) Svelte V3 ([GitHub](https://github.com/sveltejs/svelte/tree/master/site/content/tutorial))
 * [Dokumentasi](https://svelte.dev/docs) Svelte V3 ([GitHub](https://github.com/sveltejs/svelte/tree/api-reference/site/content/docs))
 * [Dokumentasi](https://sapper.svelte.technology/guide) Sapper ([GitHub](https://github.com/sveltejs/sapper.svelte.technology/tree/master/content/guide))
@@ -53,7 +53,7 @@ Untuk menghindari kebingungan, cobalah mengartikan suatu kalimat dan mengulangin
 
 Sedikit ruang kebebasan berekspresi dalam penerjemahan tetap diperkenankan, namun jika dan hanya jika terjemahan itu membantu memperjelas makna. Terjemahan sebaiknya jangan terlalu resmi tapi juga jangan terlalu longgar. Carilah terjemahan yang baik dan benar di antara kedua ekstrim tersebut.
 
-## Luncurkan situs versi lokal
+## Luncurkan Situs Versi Lokal
 
 Skrip npm telah ditambahkan ke dalam repositori, yang memperkenankan Anda dari Github untuk mengambil versi terkini situs yang terkait dalam projek ini, aplikasikanlah semua modifikasi dari repositori terjemahan ini dan jalankanlah salinan situs pada komputer Anda untuk melihat secara langsung hasil terjemahannya.
 
