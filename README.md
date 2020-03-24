@@ -1,6 +1,6 @@
 # Terjemahan Sumberdaya Svelte
 
-> Saat ini, belum diketahui bagaimana bentuk implementasi penerjemahan sumber daya resmi Svelte akan diimplementasikan, oleh sebab itu nantinya perubahan dalam struktur dan pendekatan repositori ini sangatlah mungkin terjadi di kemudian hari.
+> Saat ini, belum diketahui bagaimana bentuk implementasi penerjemahan sumber daya resmi Svelte akan diimplementasikan, oleh sebab itu nantinya perubahan dalam struktur dan pendekatan repositori ini sangatlah mungkin akan terjadi di kemudian hari.
  
 
 ## Hasil dari Penerjemahan
@@ -9,7 +9,7 @@ Situs resmi berbahasa Rusia berikut ini telah diluncurkan:
 - [ru.sapper.svelte.dev](https://ru.sapper.svelte.dev)
 - [ru.svelte-native.technology](https://ru.svelte-native.technology)
 
-> Situs dikumpulkan dan di-_deploy_ secara otomatis ketika melakukan _commit_ ke repositori ini.
+> Rencananya situs versi Indonesia akan dikumpulkan dan di-_deploy_ secara otomatis setelah semua _commit_ ke dalam repositori ini dinyatakan lengkap.
 
 ![](https://github.com/svelteid/svelte3-translation-id/workflows/Deploy%20id.svelte.dev%20site/badge.svg)
 ![](https://github.com/svelteid/svelte3-translation-id/workflows/Deploy%20id.sapper.svelte.dev%20site/badge.svg)
@@ -27,7 +27,7 @@ Situs resmi berbahasa Rusia berikut ini telah diluncurkan:
 
 
 ## Bagaimana Cara Berkontribusi pada Penerjemahan
-* [Terjemahkan](https://github.com/svelteid/svelte3-translation-id/issues) bagian dari sumber daya apa saja di atas yang belum diterjemahkan.
+* [Terjemahkanlah](https://github.com/svelteid/svelte3-translation-id/issues) bagian dari sumber daya apa saja di atas yang belum diterjemahkan.
 * Tingkatkanlah kualitas terjemahan yang sudah ada: perbaikilah kesalahan pengejaan, tanda baca atau semantik, revisilah kalimat yang disusun dengan buruk, hilangkanlah inkonsistensi terjemahan dengan rekomendasi, dll. Cara melakukannya hanya melalui sistem _pull request_ dalam repositori github ini.
 
 ## Rekomendasi Terjemahan
@@ -55,7 +55,7 @@ Sedikit ruang kebebasan berekspresi dalam penerjemahan tetap diperkenankan, namu
 
 ## Luncurkan situs versi lokal
 
-Skrip npm telah ditambahkan ke dalam repositori, yang memperkenankan Anda dari Github untuk mengambil versi terkini situs yang terkait dalam projek ini, aplikasikan semua modifikasi dari repositori terjemahan ini dan jalankan salinan situs pada komputer Anda untuk melihat secara langsung hasil terjemahannya.
+Skrip npm telah ditambahkan ke dalam repositori, yang memperkenankan Anda dari Github untuk mengambil versi terkini situs yang terkait dalam projek ini, aplikasikanlah semua modifikasi dari repositori terjemahan ini dan jalankanlah salinan situs pada komputer Anda untuk melihat secara langsung hasil terjemahannya.
 
 
 ```bash
