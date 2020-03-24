@@ -15,71 +15,71 @@
 
 *building*  — сборка 
 
-*bundle* — бандл
+*bundle* — bundle
 
-*bundler* — сборщик
+*bundler* — bundler
 
 ## c
-*component* — компонент
+*component* — komponen
 
-*computed* — вычисляемый
+*computed* — terhitung
 
-*сustom element* — пользовательский элемент
+*сustom element* — elemen kustom
 
-*сustom method* — пользовательский метод
+*сustom method* — metode kustom
 
-*сustom transition* — пользовательский переход
+*сustom transition* — transisi kustom
 
 ## d
-*derived store* — производное хранилище
+*derived store* — penyimpanan turunan
 
-*directive* — директива
+*directive* — direktif
 
 ## e
-*event* — событие
+*event* — peristiwa
 
-*event dispatcher* — диспетчер событий
+*event dispatcher* — pengirim peristiwa
 
-*event forwarding* — проброс события
+*event forwarding* — penerusan peristiwa
 
-*event handler* — обработчик события
+*event handler* — pawang peristiwa
 
-*event listener* — прослушиватель события
+*event listener* — pendengar peristiwa
 
 ## f
-*fire event* — вызвать событие
+*fire event* — luncurkan peristiwa
 
 ## h
-*hydration* — гидратация
+*hydration* — hidrasi
 
 ## i
-*immutable* — неизменяемый
+*immutable* — tak berubah
 
-*inline handler* — встроенный обработчик
+*inline handler* — pawang barisan
 
 ## l
-*layout* — макет
+*layout* — tata letak
 
-*lifecycle function* — функция жизненного цикла
+*lifecycle function* — fungsi daur hidup
 
-*lifecycle hook* — хук жизненного цикла
+*lifecycle hook* — kait daur hidup
 
 ## m
-*markup* — разметка
+*markup* — markup
 
 ## n
-*nested* — вложенный
+*nested* — bersarang
 
 ## p
-*prefetch loading* — упреждающая загрузка 
+*prefetch loading* — antar muat 
 
-*preloading* — предзагрузка 
+*preloading* — preloading 
 
-*preprocess* — препроцесс 
+*preprocess* — praproses
 
-*promise* — промис
+*promise* — janji
 
-*property*,*prop* — свойство
+*property*,*prop* — properti
 
 *proxy* — прокси
 
