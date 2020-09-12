@@ -1,21 +1,21 @@
 ---
-title: Making an app
+judul: Membuat aplikasi
 ---
 
-This tutorial is designed to get you familiar with the process of writing components. But at some point, you'll want to start writing components in the comfort of your own text editor.
+Tutorial ini dirancang agar Kamu terbiasa dengan proses penulisan komponen. Tetapi pada titik tertentu, Kamu ingin mulai menulis komponen dalam kenyamanan editor teks Anda sendiri.
 
-First, you'll need to integrate Svelte with a build tool. There are officially maintained plugins for [Rollup](https://rollupjs.org) and [webpack](https://webpack.js.org/)...
+Pertama, Kamu harus mengintegrasikan Svelte dengan alat pembuat. Ada plugin resmi yang dikelola untuk [Rollup] (https://rollupjs.org) dan [webpack] (https://webpack.js.org/) ...
 
 * [rollup-plugin-svelte](https://github.com/sveltejs/rollup-plugin-svelte)
 * [svelte-loader](https://github.com/sveltejs/svelte-loader)
 
-...and a variety of [community-maintained ones](https://github.com/sveltejs/integrations#bundler-plugins).
+...dan berbagai [community-maintained ones](https://github.com/sveltejs/integrations#bundler-plugins).
 
-Don't worry if you're relatively new to web development and haven't used these tools before. We've prepared a simple step-by-step guide, [Svelte for new developers](blog/svelte-for-new-developers), which walks you through the process.
+Jangan khawatir jika Kamu relatif baru dalam pengembangan web dan belum pernah menggunakan alat ini sebelumnya. Kami telah menyiapkan panduan langkah demi langkah sederhana, [Svelte untuk pengembang baru (blog / svelte-untuk-pengembang-baru), yang memandu Kamu melalui proses tersebut.
 
-You'll also want to configure your text editor to treat `.svelte` files the same as `.html` for the sake of syntax highlighting. [Read this guide to learn how](blog/setting-up-your-editor).
+Kamu juga ingin mengkonfigurasi editor teks Kamu untuk memperlakukan file `.svelte` sama dengan` .html` demi penyorotan sintaks. [Baca panduan ini untuk mempelajari caranya](blog / pengaturan-editor-Anda).
 
-Then, once you've got your project set up, using Svelte components is easy. The compiler turns each component into a regular JavaScript class — just import it and instantiate with `new`:
+Kemudian, setelah Kamu menyiapkan proyek, menggunakan komponen Svelte itu mudah. Kompilator mengubah setiap komponen menjadi kelas JavaScript biasa - cukup impor dan buat instance dengan `baru`:
 
 ```js
 import App from './App.svelte';
@@ -29,4 +29,4 @@ const app = new App({
 });
 ```
 
-You can then interact with `app` using the [component API](docs#Client-side_component_API) if you need to.
+Kamu kemudian dapat berinteraksi dengan `app` menggunakan [API komponen] (dokumen#Client-side_component_API) jika perlu.
