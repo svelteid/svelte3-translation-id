@@ -1,10 +1,10 @@
 ---
-title: Adding data
+judul: Menambahkan data
 ---
 
-A component that just renders some static markup isn't very interesting. Let's add some data.
+Komponen yang hanya membuat markup statis tidak terlalu menarik. Mari tambahkan beberapa data.
 
-First, add a script tag to your component and declare a `name` variable:
+Pertama, tambahkan tag skrip ke komponen Kamu dan nyatakan variabel `nama`:
 
 ```html
 <script>
@@ -14,10 +14,10 @@ First, add a script tag to your component and declare a `name` variable:
 <h1>Hello world!</h1>
 ```
 
-Then, we can refer to `name` in the markup:
+Kemudian, Kamu bisa merujuk ke `nama` di markup:
 
 ```html
 <h1>Hello {name}!</h1>
 ```
 
-Inside the curly braces, we can put any JavaScript we want. Try changing `name` to `name.toUpperCase()` for a shoutier greeting.
+Di dalam kurung kurawal, Kamu bisa meletakkan JavaScript apa pun yang Kamu inginkan. Coba ubah `name` menjadi` name.toUpperCase () `untuk sapaan yang lebih seru.
