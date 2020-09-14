@@ -1,33 +1,33 @@
 ---
-title: Dynamic attributes
+judul: atribut dinamis
 ---
 
-Just like you can use curly braces to control text, you can use them to control element attributes.
+Sama seperti saat Kamu menggunakan tanda kurung kurawal untuk mengontrol teks, Kamu dapat menggunakannya untuk mengontrol atribut elemen.
 
-Our image is missing a `src` — let's add one:
+Gambar Kamu kehilangan `src` - mari tambahkan satu:
 
 ```html
 <img src={src}>
 ```
 
-That's better. But Svelte is giving us a warning:
+Itu lebih baik. Tapi Svelte memberi kita peringatan:
 
-> A11y: &lt;img&gt; element should have an alt attribute
+> A11y: &lt; img &gt; elemen harus memiliki atribut alt
 
-When building web apps, it's important to make sure that they're *accessible* to the broadest possible userbase, including people with (for example) impaired vision or motion, or people without powerful hardware or good internet connections. Accessibility (shortened to a11y) isn't always easy to get right, but Svelte will help by warning you if you write inaccessible markup.
+Saat membuat aplikasi web, penting untuk memastikan bahwa aplikasi *dapat diakses* oleh basis pengguna seluas mungkin, termasuk orang-orang dengan (misalnya) gangguan penglihatan atau gerak, atau orang-orang tanpa perangkat keras yang kuat atau koneksi internet yang baik. Aksesibilitas (disingkat a11y) tidak selalu mudah untuk dilakukan dengan benar, tetapi Svelte akan membantu dengan memperingatkan Kamu jika menulis markup yang tidak dapat diakses.
 
-In this case, we're missing the `alt` attribute that describes the image for people using screenreaders, or people with slow or flaky internet connections that can't download the image. Let's add one:
+Dalam kasus ini, Kamu kehilangan atribut `alt` yang mendeskripsikan gambar untuk orang yang menggunakan pembaca layar, atau orang dengan koneksi internet yang lambat atau tidak stabil yang tidak dapat mengunduh gambar. Mari tambahkan satu:
 
 ```html
 <img src={src} alt="A man dances.">
 ```
 
-We can use curly braces *inside* attributes. Try changing it to `"{name} dances."` — remember to declare a `name` variable in the `<script>` block.
+Kamu bisa menggunakan tanda kurung kurawal *di dalam* atribut. Coba ubah menjadi `" {name} dances. "` - ingatlah untuk mendeklarasikan variabel `name` di blok` <script> `.
 
 
-## Shorthand attributes
+## Atribut singkatan
 
-It's not uncommon to have an attribute where the name and value are the same, like `src={src}`. Svelte gives us a convenient shorthand for these cases:
+Tidak jarang memiliki atribut yang nama dan nilainya sama, seperti `src = {src}`. Svelte memberi kita singkatan yang nyaman untuk kasus-kasus ini:
 
 ```html
 <img {src} alt="A man dances.">
