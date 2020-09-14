@@ -1,8 +1,8 @@
 ---
-title: Styling
+judul: Styling
 ---
 
-Just like in HTML, you can add a `<style>` tag to your component. Let's add some styles to the `<p>` element:
+Sama seperti di HTML, Kamu dapat menambahkan tag `<style>` ke komponen Kamu. Mari tambahkan beberapa gaya ke elemen `<p>`:
 
 ```html
 <style>
@@ -16,4 +16,4 @@ Just like in HTML, you can add a `<style>` tag to your component. Let's add some
 <p>This is a paragraph.</p>
 ```
 
-Importantly, these rules are *scoped to the component*. You won't accidentally change the style of `<p>` elements elsewhere in your app, as we'll see in the next step.
+Yang penting, aturan ini *dicakup ke komponen*. Kamu tidak akan secara tidak sengaja mengubah gaya elemen `<p>` di tempat lain dalam aplikasi-mu, seperti yang akan kita lihat di langkah berikutnya.
