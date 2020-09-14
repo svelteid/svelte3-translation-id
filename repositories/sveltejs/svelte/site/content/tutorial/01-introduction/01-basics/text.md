@@ -1,32 +1,32 @@
 ---
-title: Basics
+judul: Dasar
 ---
 
-Welcome to the Svelte tutorial. This will teach you everything you need to know to build fast, small web applications easily.
+Selamat datang di tutorial Svelte. Ini akan mengajari Kamu semua yang perlu di ketahui untuk membangun aplikasi web kecil yang cepat dengan mudah.
 
-You can also consult the [API docs](docs) and the [examples](examples), or — if you're impatient to start hacking on your machine locally — the [60-second quickstart](blog/the-easiest-way-to-get-started).
-
-
-## What is Svelte?
-
-Svelte is a tool for building fast web applications.
-
-It is similar to JavaScript frameworks such as React and Vue, which share a goal of making it easy to build slick interactive user interfaces.
-
-But there's a crucial difference: Svelte converts your app into ideal JavaScript at *build time*, rather than interpreting your application code at *run time*. This means you don't pay the performance cost of the framework's abstractions, and you don't incur a penalty when your app first loads.
-
-You can build your entire app with Svelte, or you can add it incrementally to an existing codebase. You can also ship components as standalone packages that work anywhere, without the overhead of a dependency on a conventional framework.
+Kamu juga dapat melihat [dokumen API] (dokumen) dan [contoh] (contoh), atau - jika Kamu tidak sabar untuk mulai meretas komputer Kamu secara lokal - [panduan mulai cepat 60 detik] (blog / the-termudah- cara untuk memulai).
 
 
-## How to use this tutorial
+## Apa itu Svelte?
 
-You'll need to have basic familiarity with HTML, CSS and JavaScript to understand Svelte.
+Svelte adalah alat untuk membangun aplikasi web cepat.
 
-As you progress through the tutorial, you'll be presented with mini exercises designed to illustrate new features. Later chapters build on the knowledge gained in earlier ones, so it's recommended that you go from start to finish. If necessary, you can navigate via the dropdown above (click 'Introduction / Basics').
+Ini mirip dengan kerangka kerja JavaScript seperti React dan Vue, yang berbagi tujuan untuk memudahkan pembuatan antarmuka pengguna interaktif yang apik.
 
-Each tutorial chapter will have a 'Show me' button that you can click if you get stuck following the instructions. Try not to rely on it too much; you will learn faster by figuring out where to put each suggested code block and manually typing it in to the editor.
+Namun ada perbedaan penting: Svelte mengonversi aplikasi Kamu menjadi JavaScript yang ideal pada *waktu pembuatan*, daripada menafsirkan kode aplikasi Kamu pada *waktu proses*. Ini berarti Kamu tidak membayar biaya performa abstraksi framework, dan Kamu tidak dikenai penalti saat aplikasi kamu pertama kali dimuat.
+
+Kamu dapat membangun seluruh aplikasi dengan Svelte, atau Kamu dapat menambahkannya secara bertahap ke basis kode yang ada. Kamu juga dapat mengirimkan komponen sebagai paket mandiri yang berfungsi di mana saja, tanpa beban ketergantungan pada kerangka kerja konvensional.
 
 
-## Understanding components
+## Cara menggunakan tutorial ini
 
-In Svelte, an application is composed from one or more *components*. A component is a reusable self-contained block of code that encapsulates HTML, CSS and JavaScript that belong together, written into a `.svelte` file. The 'hello world' example in the code editor is a simple component.
+Kamu harus memiliki pengetahuan dasar tentang HTML, CSS, dan JavaScript untuk memahami Svelte.
+
+Saat Kamu maju melalui tutorial, Kamu akan disajikan dengan latihan mini yang dirancang untuk menggambarkan fitur baru. Bab-bab selanjutnya mengembangkan pengetahuan yang diperoleh di bab-bab sebelumnya, jadi Kamu disarankan untuk pergi dari awal hingga akhir. Jika perlu, Kamu dapat menavigasi melalui menu tarik-turun di atas (klik 'Pendahuluan / Dasar').
+
+Setiap bab tutorial akan memiliki tombol 'Tunjukkan' yang dapat Kamu klik jika Kamu tidak dapat mengikuti instruksi. Cobalah untuk tidak terlalu mengandalkannya; Kamu akan belajar lebih cepat dengan mencari tahu di mana harus meletakkan setiap blok kode yang disarankan dan mengetiknya secara manual ke editor.
+
+
+## Memahami komponen
+
+Di Svelte, aplikasi terdiri dari satu atau lebih *komponen*. Komponen adalah blok kode mandiri yang dapat digunakan kembali yang merangkum HTML, CSS, dan JavaScript yang dimiliki bersama, ditulis ke dalam file `.svelte`. Contoh 'hello world' di editor kode adalah komponen sederhana.
