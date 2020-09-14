@@ -1,16 +1,16 @@
 ---
-title: Assignments
+judul: Penugasan
 ---
 
-At the heart of Svelte is a powerful system of *reactivity* for keeping the DOM in sync with your application state — for example, in response to an event.
+Inti dari Svelte adalah sistem *reaktivitas* yang kuat untuk menjaga agar DOM tetap sinkron dengan status aplikasi Kamu - misalnya, sebagai respons terhadap suatu peristiwa.
 
-To demonstrate it, we first need to wire up an event handler. Replace line 9 with this:
+Untuk mendemonstrasikannya, pertama-tama Kamu perlu memasang pengendali event. Ganti baris 9 dengan ini:
 
 ```html
 <button on:click={handleClick}>
 ```
 
-Inside the `handleClick` function, all we need to do is change the value of `count`:
+Di dalam fungsi `handleClick`, yang perlu kamu lakukan hanyalah mengubah nilai` count`:
 
 ```js
 function handleClick() {
@@ -18,4 +18,4 @@ function handleClick() {
 }
 ```
 
-Svelte 'instruments' this assignment with some code that tells it the DOM will need to be updated.
+Svelte 'instrumen' penugasan ini dengan beberapa kode yang memberitahukannya bahwa DOM perlu diperbarui.
