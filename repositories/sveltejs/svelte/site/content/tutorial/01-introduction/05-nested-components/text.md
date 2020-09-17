@@ -2,7 +2,7 @@
 judul: Komponen bersarang
 ---
 
-Tidak praktis untuk menempatkan seluruh aplikasi Kamu dalam satu komponen. Sebagai gantinya, kamu dapat mengimpor komponen dari file lain dan memasukkannya seolah-olah kamu sedang memasukkan elemen.
+Tidak praktis untuk menempatkan seluruh aplikasi kamu dalam satu komponen. Sebagai gantinya, kamu dapat mengimpor komponen dari file lain dan memasukkannya seolah-olah kamu sedang memasukkan elemen.
 
 Tambahkan tag `<script>` yang mengimpor `Nested.svelte` ...
 
