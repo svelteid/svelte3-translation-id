@@ -1,10 +1,10 @@
 ---
-title: Nested components
+judul: Komponen bersarang
 ---
 
-It would be impractical to put your entire app in a single component. Instead, we can import components from other files and include them as though we were including elements.
+Tidak praktis untuk menempatkan seluruh aplikasi kamu dalam satu komponen. Sebagai gantinya, kamu dapat mengimpor komponen dari file lain dan memasukkannya seolah-olah kamu sedang memasukkan elemen.
 
-Add a `<script>` tag that imports `Nested.svelte`...
+Tambahkan tag `<script>` yang mengimpor `Nested.svelte` ...
 
 ```html
 <script>
@@ -12,11 +12,11 @@ Add a `<script>` tag that imports `Nested.svelte`...
 </script>
 ```
 
-...then add it to the markup:
+... lalu tambahkan ke markup:
 
 ```html
 <p>This is a paragraph.</p>
 <Nested/>
 ```
 
-Notice that even though `Nested.svelte` has a `<p>` element, the styles from `App.svelte` don't leak in.
+Perhatikan bahwa meskipun `Nested.svelte` memiliki elemen` <p> `, gaya dari` App.svelte` tidak bocor.
