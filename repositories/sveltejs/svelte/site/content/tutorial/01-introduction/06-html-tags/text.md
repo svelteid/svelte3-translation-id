@@ -1,15 +1,15 @@
 ---
-title: HTML tags
+judul: tag HTML
 ---
 
-Ordinarily, strings are inserted as plain text, meaning that characters like `<` and `>` have no special meaning.
+Biasanya, string disisipkan sebagai teks biasa, artinya karakter seperti `<` dan `>` tidak memiliki arti khusus.
 
-But sometimes you need to render HTML directly into a component. For example, the words you're reading right now exist in a markdown file that gets included on this page as a blob of HTML.
+Namun terkadang kamu perlu merender HTML langsung menjadi sebuah komponen. Misalnya, kata-kata yang kamu baca sekarang ada di file penurunan harga yang disertakan di halaman ini sebagai gumpalan HTML.
 
-In Svelte, you do this with the special `{@html ...}` tag:
+Di Svelte, kamu melakukan ini dengan tag `{@html ...}` khusus:
 
 ```html
 <p>{@html string}</p>
 ```
 
-> Svelte doesn't perform any sanitization of the expression inside `{@html ...}` before it gets inserted into the DOM. In other words, if you use this feature it's critical that you manually escape HTML that comes from sources you don't trust, otherwise you risk exposing your users to XSS attacks.
+> Svelte tidak melakukan pembersihan ekspresi apa pun di dalam `{@html ...}` sebelum dimasukkan ke DOM. Dengan kata lain, jika kamu menggunakan fitur ini, kamu harus menghindari HTML yang berasal dari sumber yang tidak kamu percayai secara manual, jika tidak, kamu berisiko membuat pengguna kamu terkena serangan XSS.
