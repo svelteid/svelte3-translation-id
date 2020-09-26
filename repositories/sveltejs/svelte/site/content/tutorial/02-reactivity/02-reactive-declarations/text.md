@@ -1,10 +1,10 @@
 ---
-title: Declarations
+judul: Deklarasi
 ---
 
-Svelte automatically updates the DOM when your component's state changes. Often, some parts of a component's state need to be computed from *other* parts (such as a `fullname` derived from a `firstname` and a `lastname`), and recomputed whenever they change.
+Svelte secara otomatis memperbarui DOM ketika status komponen kamu berubah. Seringkali, beberapa bagian dari status komponen perlu dihitung dari bagian *lain* (seperti `nama lengkap` yang diturunkan dari` nama depan` dan `nama belakang`), dan dihitung ulang setiap kali mereka berubah.
 
-For these, we have *reactive declarations*. They look like this:
+Untuk ini, kami memiliki *deklarasi reaktif*. terlihat seperti ini:
 
 ```js
 let count = 0;
@@ -13,10 +13,10 @@ $: doubled = count * 2;
 
 > Don't worry if this looks a little alien. It's [valid](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label) (if unconventional) JavaScript, which Svelte interprets to mean 're-run this code whenever any of the referenced values change'. Once you get used to it, there's no going back.
 
-Let's use `doubled` in our markup:
+Mari gunakan `doubled` di markup kita:
 
 ```html
 <p>{count} doubled is {doubled}</p>
 ```
 
-Of course, you could just write `{count * 2}` in the markup instead — you don't have to use reactive values. Reactive values become particularly valuable when you need to reference them multiple times, or you have values that depend on *other* reactive values.
+Tentu saja, kamu bisa menulis `{count * 2}` di markup - kamu tidak perlu menggunakan nilai reaktif. Nilai reaktif menjadi sangat berharga ketika kamu perlu mereferensikannya beberapa kali, atau kamu memiliki nilai yang bergantung pada nilai reaktif *lain*.
