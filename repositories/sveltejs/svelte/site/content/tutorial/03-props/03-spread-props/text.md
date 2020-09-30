@@ -1,11 +1,11 @@
 ---
-title: Spread props
+title: Properti tersebar
 ---
 
-If you have an object of properties, you can 'spread' them on to a component instead of specifying each one:
+Jika kamu punya sebuah objek properti, kamu bisa 'menyebarkan' nya ke dalam sebuah komponen dibanding harus mendeklarasikannya satu per satu: 
 
 ```html
 <Info {...pkg}/>
 ```
 
-> Conversely, if you need to reference all the props that were passed into a component, including ones that weren't declared with `export`, you can do so by accessing `$$props` directly. It's not generally recommended, as it's difficult for Svelte to optimise, but it's useful in rare cases.
+> Sebaliknya, jika kamu perlu merefrensikan semua properti yang diteruskan ke dalam sebuah komponen, termasuk yang tidak dideklarasikan dengan `export`, kamu bisa melakukannya dengan mengakses `$$props` secara langsung. Ini tidaklah direkomendasikan, karena akan sulit bagi Svelte untuk mengoptimasikannya, tapi ini berguna untuk kasus yang langka.

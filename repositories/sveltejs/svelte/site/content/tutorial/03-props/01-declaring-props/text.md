@@ -1,10 +1,10 @@
 ---
-title: Declaring props
+title: Deklarasi properti
 ---
 
-So far, we've dealt exclusively with internal state — that is to say, the values are only accessible within a given component.
+Sejauh ini, kita hanya berurusan dengan status internal saja - artinya, nilai hanya bisa diakses dalam komponen tertentu.
 
-In any real application, you'll need to pass data from one component down to its children. To do that, we need to declare *properties*, generally shortened to 'props'. In Svelte, we do that with the `export` keyword. Edit the `Nested.svelte` component:
+Dalam aplikasi di dunia nyata, kamu perlu mengoper data dari satu komponen ke anak - anaknya. Untuk melakukan itu, kita perlu mendeklarasikan *properti*, yang pada umumnya disingkat '*props*'. Pada Svelte, kita melakukan itu dengan `export` *keyword*. Ubahlah `Nested.svelte` komponen:
 
 ```html
 <script>
@@ -12,4 +12,4 @@ In any real application, you'll need to pass data from one component down to its
 </script>
 ```
 
-> Just like `$:`, this may feel a little weird at first. That's not how `export` normally works in JavaScript modules! Just roll with it for now — it'll soon become second nature.
+> Sama seperti `$:`, ini akan terasa sedikit aneh pada awalnya. Karena `export` tidak bekerja seperti itu pada modul JavaScript! Lakukan saja untuk saat ini - itu akan segera menjadi kebiasaan.

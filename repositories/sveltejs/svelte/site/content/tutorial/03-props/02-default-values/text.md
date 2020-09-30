@@ -1,8 +1,8 @@
 ---
-title: Default values
+title: Nilai default
 ---
 
-We can easily specify default values for props:
+Kita dapat dengan mudah menspesifikasikan nilai default pada properti:
 
 ```html
 <script>
@@ -10,7 +10,7 @@ We can easily specify default values for props:
 </script>
 ```
 
-If we now add a second component *without* an `answer` prop, it will fall back to the default:
+Jika kita menambahkan komponen lain *tanpa* sebuah `answer` properti, nilainya akan menggunakan nilai default:
 
 ```html
 <Nested answer={42}/>
