@@ -1,8 +1,8 @@
 ---
-title: Component events
+title: Event komponen
 ---
 
-Components can also dispatch events. To do so, they must create an event dispatcher. Update `Inner.svelte`:
+Komponen juga bisa mengirim event. Untuk melakukannya, mereka harus membuat sebuah pengirim event. Perbarui `Inner.svelte`:
 
 ```html
 <script>
@@ -18,4 +18,4 @@ Components can also dispatch events. To do so, they must create an event dispatc
 </script>
 ```
 
-> `createEventDispatcher` must be called when the component is first instantiated — you can't do it later inside e.g. a `setTimeout` callback. This links `dispatch` to the component instance.
+> `createEventDispatcher` harus dipanggil saat komponen pertama kali dibuat - kamu tidak bisa melakukannya nanti contoh: dengan *callback* `setTimeout`. Ini akan menghubungkan `dispatch` ke instance komponen.

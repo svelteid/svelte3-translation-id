@@ -1,10 +1,10 @@
 ---
-title: DOM event forwarding
+title: Penerusan event DOM
 ---
 
-Event forwarding works for DOM events too.
+Penerusan event juga bisa digunakan untuk event DOM.
 
-We want to get notified of clicks on our `<CustomButton>` — to do that, we just need to forward `click` events on the `<button>` element in `CustomButton.svelte`:
+Kita ingin diberitahu tentang event klik dalam `<CustomButton>` kita - untuk melakukan itu, kita hanya perlu meneruskan event `click` ke dalam elemen `<button>` dalam `CustomButton.svelte`:
 
 ```html
 <button on:click>

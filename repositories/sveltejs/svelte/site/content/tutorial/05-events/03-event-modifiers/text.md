@@ -1,8 +1,8 @@
 ---
-title: Event modifiers
+title: Pengubah event
 ---
 
-DOM event handlers can have *modifiers* that alter their behaviour. For example, a handler with a `once` modifier will only run a single time:
+DOM event *handlers* bisa memiliki *pengubah* yang mengubah perilaku dari event tersebut. Contohnya, sebuah *handler* dengan pengubah `once` akan dijalankan saat pertama kali saja:
 
 ```html
 <script>
@@ -16,13 +16,13 @@ DOM event handlers can have *modifiers* that alter their behaviour. For example,
 </button>
 ```
 
-The full list of modifiers:
+Daftar lengkap dari pengubah:
 
-* `preventDefault` — calls `event.preventDefault()` before running the handler. Useful for client-side form handling, for example.
-* `stopPropagation` — calls `event.stopPropagation()`, preventing the event reaching the next element
-* `passive` — improves scrolling performance on touch/wheel events (Svelte will add it automatically where it's safe to do so)
-* `capture` — fires the handler during the *capture* phase instead of the *bubbling* phase ([MDN docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Event_bubbling_and_capture))
-* `once` — remove the handler after the first time it runs
-* `self` — only trigger handler if event.target is the element itself
+* `preventDefault` — panggil `event.preventDefault()` sebelum menjalankan *handler*. Berguna untuk menangani *client-side* formulir, contohnya.
+* `stopPropagation` — panggil `event.stopPropagation()`, mencegah event untuk mencapai elemen berikutnya 
+* `passive` - meningkatkan performa *scrolling* saat event *touch/wheel* (Svelte akan menambahkannya secara otomatis di tempat yang aman untuk melakukannya)
+* `capture` — Meluncurkan *handler* selama tahap *capture* daripada tahap *bubbling* ([Dokumen MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Event_bubbling_and_capture))
+* `once` — menghapus *handler* setelah pertama kali dijalankan
+* `self` — picu *handler* hanya saat event.target adalah element itu sendiri
 
-You can chain modifiers together, e.g. `on:click|once|capture={...}`.
+Kamu bisa menyatukan pengubah, contoh: `on:click|once|caputre={...}`.

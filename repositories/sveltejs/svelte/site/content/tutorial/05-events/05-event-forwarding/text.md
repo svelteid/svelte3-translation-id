@@ -1,12 +1,12 @@
 ---
-title: Event forwarding
+title: Penerusan event
 ---
 
-Unlike DOM events, component events don't *bubble*. If you want to listen to an event on some deeply nested component, the intermediate components must *forward* the event.
+Tidak seperti event DOM, event komponen tidak *bubble*. Jika kamu ingin *listen* ke sebuah event dalam komponen yang bersarang sangat dalam, komponen perantara harus *meneruskan* event tersebut.
 
-In this case, we have the same `App.svelte` and `Inner.svelte` as in the [previous chapter](tutorial/component-events), but there's now an `Outer.svelte` component that contains `<Inner/>`.
+Dalam hal ini, kita mempunyai `App.svelte` dan `Inner.svelte` yang sama dengan [bab sebelumnya](tutorial/component-events), tapi sekarang ada `Outer.svelte` komponen yang berisi `<Inner/>`.
 
-One way we could solve the problem is adding `createEventDispatcher` to `Outer.svelte`, listening for the `message` event, and creating a handler for it:
+Salah satu cara untuk menyelesaikan masalah ini adalah dengan menambahkan `createEventDispatcher` ke `Outer.svelte`, mendengarkan event `message`, dan membuat *handler* untuk itu:
 
 ```html
 <script>
@@ -23,7 +23,7 @@ One way we could solve the problem is adding `createEventDispatcher` to `Outer.s
 <Inner on:message={forward}/>
 ```
 
-But that's a lot of code to write, so Svelte gives us an equivalent shorthand — an `on:message` event directive without a value means 'forward all `message` events'.
+Tapi banyak kode yang harus ditulis, jadi Svelte memberikan kita sebuah steno(penulisan cepat) - dengan event direktif `on:message` tanpa sebuah nilai berarti 'meneruskan semua event `message`'.
 
 ```html
 <script>
