@@ -1,14 +1,14 @@
 ---
-title: Statements
+judul: Pernyataan
 ---
 
-We're not limited to declaring reactive *values* — we can also run arbitrary *statements* reactively. For example, we can log the value of `count` whenever it changes:
+Kami tidak membatasi pada pendeklarasian *nilai* reaktif - kami juga dapat menjalankan *pernyataan* secara sewenang-wenang. Misalnya, kita dapat mencatat nilai `count` setiap kali berubah:
 
 ```js
 $: console.log(`the count is ${count}`);
 ```
 
-You can easily group statements together with a block:
+kamu dapat dengan mudah mengelompokkan pernyataan bersama dengan satu blok:
 
 ```js
 $: {
@@ -17,7 +17,7 @@ $: {
 }
 ```
 
-You can even put the `$:` in front of things like `if` blocks:
+Kamu bahkan dapat meletakkan `$:` di depan hal-hal seperti blok `if`:
 
 ```js
 $: if (count >= 10) {
