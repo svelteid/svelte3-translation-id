@@ -1,8 +1,8 @@
 ---
-title: Inline handlers
+title: Handlers baris
 ---
 
-You can also declare event handlers inline:
+Kamu juga bisa mendeklarasikan event *handlers* dalam baris:
 
 ```html
 <div on:mousemove="{e => m = { x: e.clientX, y: e.clientY }}">
@@ -10,6 +10,6 @@ You can also declare event handlers inline:
 </div>
 ```
 
-The quote marks are optional, but they're helpful for syntax highlighting in some environments.
+Tanda kutip bersifat opsional, tapi itu sangat membantu untuk menyoroti sintaks di lingkungan tertentu. 
 
-> In some frameworks you may see recommendations to avoid inline event handlers for performance reasons, particularly inside loops. That advice doesn't apply to Svelte — the compiler will always do the right thing, whichever form you choose.
+> Pada beberapa kerangka kerja kamu mungkin melihat rekomendasi untuk menghindari penggunaan event *handlers* baris untuk alasan performa, khususnya dalam perulangan. Nasihat itu tidak berlaku untuk Svelte - kompailer selalu melakukan hal yang benar, apapun bentuk yang kamu pilih.

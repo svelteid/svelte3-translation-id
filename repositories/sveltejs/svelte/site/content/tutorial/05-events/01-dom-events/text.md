@@ -1,8 +1,8 @@
 ---
-title: DOM events
+title: Event DOM
 ---
 
-As we've briefly seen already, you can listen to any event on an element with the `on:` directive:
+Seperti yang sudah kita lihat, kamu bisa me *listen* sebuah event dalam elemen dengan direktif `on:`:
 
 ```html
 <div on:mousemove={handleMousemove}>
