@@ -1,10 +1,10 @@
 ---
-title: Numeric inputs
+title: Masukan angka
 ---
 
-In the DOM, everything is a string. That's unhelpful when you're dealing with numeric inputs — `type="number"` and `type="range"` — as it means you have to remember to coerce `input.value` before using it.
+Dalam DOM, segalanya adalah sebuah *string*. Itu tidak membantu saat kamu berurusan dengan masukan angka - `type="number"` dan `type="range"` - itu artinya kamu harus ingat untuk memaksa `input.value` sebelum menggunakannya.
 
-With `bind:value`, Svelte takes care of it for you:
+Dengan `bind:value`, Svelte akan mengurusnya untuk kamu:
 
 ```html
 <input type=number bind:value={a} min=0 max=10>

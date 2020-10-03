@@ -1,10 +1,10 @@
 ---
-title: Select multiple
+title: Banyak pilihan
 ---
 
-A select can have a `multiple` attribute, in which case it will populate an array rather than selecting a single value.
+Pilihan bisa memiliki atribut `multiple`, dalam kasus ini akan membentuk sebuah *array* daripada memilih satu nilai.
 
-Returning to our [earlier ice cream example](tutorial/group-inputs), we can replace the checkboxes with a `<select multiple>`:
+Kembali ke [contoh es krim diawal](tutorial/group-inputs), kita bisa mengganti kotak centang dengan `<select multiple>`:
 
 ```html
 <h2>Flavours</h2>

@@ -1,8 +1,8 @@
 ---
-title: Dimensions
+title: Ukuran
 ---
 
-Every block-level element has `clientWidth`, `clientHeight`, `offsetWidth` and `offsetHeight` bindings:
+Setiap blok-level elemen memiliki *binding* `clientWidth`, `clientHeight`, `offsetWidth` dan `offsetHeight`:
 
 ```html
 <div bind:clientWidth={w} bind:clientHeight={h}>
@@ -10,8 +10,8 @@ Every block-level element has `clientWidth`, `clientHeight`, `offsetWidth` and `
 </div>
 ```
 
-These bindings are readonly — changing the values of `w` and `h` won't have any effect.
+*Binding* tersebut bersifat *readonly*(hanya bisa dibaca) - mengubah nilai dari `w` dan `h` tidak akan memberi pengaruh apapun.
 
-> Elements are measured using a technique similar to [this one](http://www.backalleycoder.com/2013/03/18/cross-browser-event-based-element-resize-detection/). There is some overhead involved, so it's not recommended to use this for large numbers of elements.
+> Elemen diukur dengan tehnik yang sama dengan [yang satu ini](http://www.backalleycoder.com/2013/03/18/cross-browser-event-based-element-resize-detection/).Ada beberapa overhead yang terlibat, jadi tidak disarankan untuk menggunakan ini untuk elemen dalam jumlah besar. 
 >
-> `display: inline` elements cannot be measured with this approach; nor can elements that can't contain other elements (such as `<canvas>`). In these cases you will need to measure a wrapper element instead.
+> elemen `display: inline` tidak bisa diukur dengan pendekatan ini; atau juga dengan elemen yang tidak bisa mengandung elemen lain (seperti `<canvas>`). Dalam kasus ini kamu harus mengukur pembungkus elemen tersebut.

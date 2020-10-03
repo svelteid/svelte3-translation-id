@@ -1,10 +1,10 @@
 ---
-title: Media elements
+title: Elemen media
 ---
 
-The `<audio>` and `<video>` elements have several properties that you can bind to. This example demonstrates a few of them.
+Element `<audio>` dan `<video>` memiliki beberapa properti yang bisa kamu *bind* juga. Contoh berikut mendemonstrasikan beberapa properti itu.
 
-On line 116, add `currentTime={time}`, `duration` and `paused` bindings:
+Pada baris 116, tambahkan *bindings* `currentTime={time}`, `duration` dan `paused`:
 
 ```html
 <video
@@ -18,26 +18,27 @@ On line 116, add `currentTime={time}`, `duration` and `paused` bindings:
 ></video>
 ```
 
-> `bind:duration` is equivalent to `bind:duration={duration}`
+> `bind:duration` itu sama dengan `bind:duration={duration}`
 
-Now, when you click on the video, it will update `time`, `duration` and `paused` as appropriate. This means we can use them to build custom controls.
+Sekarang, saat kamu melakukan klik pada video, itu akan memperbarui `time`, `duration` dan `pauseda` sewajarnya. Ini berarti kita bisa menggunakannya untuk membangun kontrol khusus.
 
-> Ordinarily on the web, you would track `currentTime` by listening for `timeupdate` events. But these events fire too infrequently, resulting in choppy UI. Svelte does better — it checks `currentTime` using `requestAnimationFrame`.
+> Pada web umunya, kamu akan melacak `currentTime` dengan cara me*listening* event `timeupdate`. Tapi event itu terlalu jarang terjadi, menghasilkan UI yang kurang halus. Svelte melaukannya lebih baik - dengan memeriksa `currentTime` menggunakan `requestAnimationFrame`.
 
 The complete set of bindings for `<audio>` and `<video>` is as follows — six *readonly* bindings...
+*Binding* lengkap untuk `<audio>` dan `<video>` adalah sebagai berikut - enam *binding readonly*(hanya bisa dibaca)...
 
-* `duration` (readonly) — the total duration of the video, in seconds
-* `buffered` (readonly) — an array of `{start, end}` objects
+* `duration` (readonly) — total durasi dari video, dalam detik
+* `buffered` (readonly) — sebuah *array* dari objek `{start, end}`
 * `seekable` (readonly) — ditto
 * `played` (readonly) — ditto
 * `seeking` (readonly) — boolean
 * `ended` (readonly) — boolean
 
-...and four *two-way* bindings:
+...dan empat *binding* *dua-arah*:
 
-* `currentTime` — the current point in the video, in seconds
-* `playbackRate` — how fast to play the video, where `1` is 'normal'
-* `paused` — this one should be self-explanatory
-* `volume` — a value between 0 and 1
+* `currentTime` — titik saat ini dalam video, dalam detik
+* `playbackRate` — seberapa cepat video dimainkan, dimana `1` adalah 'normal'
+* `paused` — yang satu ini harusnya kamu sendiri sudah tau
+* `volume` — volume antara 0 dan 1
 
-Videos additionally have readonly `videoWidth` and `videoHeight` bindings.
+Video memliliki *readonly* `videoWidth` dan `videoHeight` sebagai *bindings* tambahan.
