@@ -1,15 +1,15 @@
 ---
-title: Text inputs
+title: Masukan teks
 ---
 
-As a general rule, data flow in Svelte is *top down* — a parent component can set props on a child component, and a component can set attributes on an element, but not the other way around.
+Sebagai peraturan umum, alur data dalam Svelte adalah *atas bawah* - sebuah komponen induk dapat mengatur properti dari komponen anak, dan sebuah komponen bisa mengatur atribut dalam sebuah elemen, tapi tidak sebaliknya.
 
-Sometimes it's useful to break that rule. Take the case of the `<input>` element in this component — we *could* add an `on:input` event handler that sets the value of `name` to `event.target.value`, but it's a bit... boilerplatey. It gets even worse with other form elements, as we'll see.
+Terkadang melanggar aturan itu baik. Ambil contoh kasus `<input>` elemen dalam komponen ini - kita *bisa* menambahkan `on:input` event *handler* yang mengatur nilai dari `name` ke `event.target.value`, tapi ini sedikit... *boilerplatey*(boilerplate => kode yang harus disertakan di banyak tempat dengan sedikit atau tanpa perubahan). Ini akan menjadi lebih buruk dengan bentuk elemen lainnya, seperti yang akan kita lihat.  
 
-Instead, we can use the `bind:value` directive:
+Sebagai gantinya, kita bisa menggunakan `bind:value` direktif:
 
 ```html
 <input bind:value={name}>
 ```
 
-This means that not only will changes to the value of `name` update the input value, but changes to the input value will update `name`.
+Ini berarti tidak hanya akan merubah nilai dari `name` akan memperbarui nilai masukan, tapi perubahan ke nilai masukan juga akan memperbarui `name`.

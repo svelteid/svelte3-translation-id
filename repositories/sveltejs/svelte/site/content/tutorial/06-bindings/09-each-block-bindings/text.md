@@ -1,8 +1,8 @@
 ---
-title: Each block bindings
+title: Blok each binding
 ---
 
-You can even bind to properties inside an `each` block.
+Kamu bahkan bisa mem*bind* properti kedalam sebuah blok `each`.
 
 ```html
 <input
@@ -16,4 +16,4 @@ You can even bind to properties inside an `each` block.
 >
 ```
 
-> Note that interacting with these `<input>` elements will mutate the array. If you prefer to work with immutable data, you should avoid these bindings and use event handlers instead.
+> Catatan interaksi dengan elemen `<input>` akan mengubah *array*. Jika kamu lebih memilih bekerja dengan data yang *immutable*(kekal), kamu harus menghindari penggunaan *bindings* seperti tadi dan lebih baik gunakan event *handlers*.

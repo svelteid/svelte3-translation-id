@@ -1,8 +1,8 @@
 ---
-title: Checkbox inputs
+title: Masukan kotak centang
 ---
 
-Checkboxes are used for toggling between states. Instead of binding to `input.value`, we bind to `input.checked`:
+Kotak centang digunakan untuk beralih antar status. Alih - alih melakukan *binding* ke `input.value`, kita melakukan binding ke `input.checked`:
 
 ```html
 <input type=checkbox bind:checked={yes}>

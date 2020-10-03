@@ -1,13 +1,13 @@
 ---
-title: Select bindings
+title: Binding pilihan
 ---
 
-We can also use `bind:value` with `<select>` elements. Update line 24:
+Kita juga bisa menggunakan `bind:value` dengan elemen `<select>`. Perbarui baris 24:
 
 ```html
 <select bind:value={selected} on:change="{() => answer = ''}">
 ```
 
-Note that the `<option>` values are objects rather than strings. Svelte doesn't mind.
+Catatan nilai `<option>` adalah sebuah objek daripada *strings*. Svelte tidak keberatan.
 
-> Because we haven't set an initial value of `selected`, the binding will set it to the default value (the first in the list) automatically. Be careful though — until the binding is initialised, `selected` remains undefined, so we can't blindly reference e.g. `selected.id` in the template.
+> Karena kita belum mengatur nilai awal dari `selected`, *binding* akan mengaturnya ke nilai default (baris pertama dari daftar) secara otomatis. Berhati-hatilah - sampai *binding* dimulai, `selected` akan tetap *undefined*, jadi kita tidak bisa merefrensikan begitu saja contoh: `selected.id` dalam template. 

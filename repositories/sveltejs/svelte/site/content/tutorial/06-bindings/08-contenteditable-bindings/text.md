@@ -1,8 +1,8 @@
 ---
-title: Contenteditable bindings
+title: Binding contenteditable 
 ---
 
-Elements with a `contenteditable="true"` attribute support `textContent` and `innerHTML` bindings:
+Elemen dengan atribut `contenteditable="true"` mendukung `textContent` and `innerHTML` *bindings*:
 
 ```html
 <div
