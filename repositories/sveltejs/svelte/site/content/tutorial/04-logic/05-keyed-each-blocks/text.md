@@ -1,12 +1,12 @@
 ---
-title: Keyed each blocks
+title: Mengunci blok each
 ---
 
-By default, when you modify the value of an `each` block, it will add and remove items at the *end* of the block, and update any values that have changed. That might not be what you want.
+Secara default, saat kamu mengubah value dari blok `each`, itu akan menambah dan menghapus item di *akhir* blok, dan memperbarui nilai apapun yg berubah. Itu mungkin bukan apa yang kamu inginkan.
 
-It's easier to show why than to explain. Click the 'Remove first thing' button a few times, and notice that it's removing `<Thing>` components from the end and updating the `color` for those that remain. Instead, we'd like to remove the first `<Thing>` component and leave the rest unaffected.
+Ini akan lebih mudah untuk ditunjukkan ketimbang dijelaskan. Klik tombol 'Remove first thing' beberapa kali, dan perhatikan itu menghapus komponen `<Thing>` dari bawah dan memperbarui `warna` dari sisanya. Sedangkan, kita ingin menghapus komponen `<Thing>` pertama dan membiarkan sisanya tidak terdampak.
 
-To do that, we specify a unique identifier for the `each` block:
+Untuk melakukan itu, kita spesifikasikan sebuah identitas unik untuk blok `each`:
 
 ```html
 {#each things as thing (thing.id)}
@@ -14,6 +14,6 @@ To do that, we specify a unique identifier for the `each` block:
 {/each}
 ```
 
-The `(thing.id)` tells Svelte how to figure out what changed.
+`(thing.id)` memberi tau Svelte bagaimana mencari apa yang berubah.
 
-> You can use any object as the key, as Svelte uses a `Map` internally — in other words you could do `(thing)` instead of `(thing.id)`. Using a string or number is generally safer, however, since it means identity persists without referential equality, for example when updating with fresh data from an API server.
+> Kamu bisa mengunakan objek sebagai sebuah kunci, karena Svelte menggunakan `Map` secara internal - dengan kata lain kamu bisa menggunakan `(thing)` dari pada `(thing.id)`. Mengunakan sebuah string atau angka lebih aman, namun, karena itu merupakan sebuah identitas yang bertahan tanpa persamaan referensial, misalnya saat kita memperbarui dengan data baru dari API *server*.

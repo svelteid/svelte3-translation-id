@@ -1,10 +1,10 @@
 ---
-title: If blocks
+title: Blok if
 ---
 
-HTML doesn't have a way of expressing *logic*, like conditionals and loops. Svelte does.
+HTML tidak mempunyai cara untuk mengekspresikan *logika*, seperti kondisi dan perulangan. Svelte punya.
 
-To conditionally render some markup, we wrap it in an `if` block:
+Untuk mengkondisikan *render* markup, kita membungkusnya dengan `if` blok:
 
 ```html
 {#if user.loggedIn}
@@ -20,4 +20,4 @@ To conditionally render some markup, we wrap it in an `if` block:
 {/if}
 ```
 
-Try it — update the component, and click on the buttons.
+Cobalah - perbarui komponen, dan klik tombolnya.

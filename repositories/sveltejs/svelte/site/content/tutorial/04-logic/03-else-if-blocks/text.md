@@ -1,8 +1,8 @@
 ---
-title: Else-if blocks
+title: Blok else-if
 ---
 
-Multiple conditions can be 'chained' together with `else if`:
+Banyak kondisi dapat 'dirangkai' secara bersamaan dengan `else if`:
 
 ```html
 {#if x > 10}

@@ -1,8 +1,8 @@
 ---
-title: Else blocks
+title: Blok else
 ---
 
-Since the two conditions — `if user.loggedIn` and `if !user.loggedIn` — are mutually exclusive, we can simplify this component slightly by using an `else` block:
+Adanya dua kondisi - `if user.loggedIn` dan `if !user.loggedIn` - dimana itu eksklusif, kita bisa menyederhanakan komponen dengan menggunakan `else` blok:
 
 ```html
 {#if user.loggedIn}
@@ -16,4 +16,4 @@ Since the two conditions — `if user.loggedIn` and `if !user.loggedIn` — are 
 {/if}
 ```
 
-> A `#` character always indicates a *block opening* tag. A `/` character always indicates a *block closing* tag. A `:` character, as in `{:else}`, indicates a *block continuation* tag. Don't worry — you've already learned almost all the syntax Svelte adds to HTML.
+> Karakter `#` selalu menunjukkan sebuah tag *pembukaan blok*. Karakter `/` selalu menunjukan sebuah tag *penutup blok*. Karakter `:`, dalam `{:else}`, menunjukkan sebuah tag *lanjutan blok*. Jangan khawatir - kamu sudah mempelajari hampir semua sintak yang Svelte tambahkan ke HTML.
